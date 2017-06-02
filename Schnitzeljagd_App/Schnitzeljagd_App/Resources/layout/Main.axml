@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="242.5dp"
+        android:id="@+id/linearLayout2">
+        <Button
+            android:id="@+id/butGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello" />
+        <Button
+            android:text="Speed"
+            android:id="@+id/butSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Minigame 1"
+            android:id="@+id/butMinGame1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Minigame 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/butMinGame2" />
+        <Button
+            android:text="Minigame 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/butMinGame3" />
+    </LinearLayout>
+</LinearLayout>
