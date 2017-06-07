@@ -13,10 +13,10 @@ using Android.Locations;
 
 namespace Schnitzeljagd_App
 {
-	public class GameActivity : Activity, ILocationListener
+	public class GameActivity : GpsActivity
 	{
 
-		private LocationManager locMan;
+		//private LocationManager locMan;
 		private TextView txtLongitude;
 		private TextView txtLatitude;
 		private TextView txtHeight;
@@ -69,7 +69,7 @@ namespace Schnitzeljagd_App
 			{
 				locs[i].DistanceTo(hunt.getActLocation());
 			}
-				
+
 
 		}
 		public void OnLocationChanged(Location location)
@@ -78,37 +78,18 @@ namespace Schnitzeljagd_App
 			txtLongitude.Text = "Current Longtitude : " + Convert.ToString(location.Longitude);
 			txtLatitude.Text = "Current Latitude : " + Convert.ToString(location.Latitude);
 			txtHeight.Text = "Current Height : " + Convert.ToString(location.Altitude);
-			txtVel.Text = "Current Longtitude : " + Convert.ToString((location.Speed) * 3.6) + "km/h" ; // convert speed to km/h and print it
-
-
-
-
+			txtVel.Text = "Current Longtitude : " + Convert.ToString((location.Speed) * 3.6) + "km/h"; // convert speed to km/h and print it
 		}
-
-		public void OnProviderDisabled(string provider)
+		protected override void OnResume() 
 		{
-			Toast toast = Toast.MakeText(this, "GPS disabled", ToastLength.Long);
-			toast.Show();
+			base.OnResume();
+			txtMessage.Text = "waiting for gps-signal...";
 		}
 
-		public void OnProviderEnabled(string provider)
+		protected override void OnPause() 
 		{
-			Toast toast = Toast.MakeText(this, "GPS enabled", ToastLength.Long);
-			toast.Show();
-		}
-		protected override void OnResume()
-		{
-
-			//locMan.RequestLocationUpdate(LocationManager.GpsProvider, 50, 0, this);
-		}
-		protected override void OnPause()
-		{
-			locMan.RemoveUpdates(this);
+			base.OnPause();
 		}
 
-		public void OnStatusChanged(string provider, [GeneratedEnum] Availability status, Bundle extras)
-		{
-			//throw new NotImplementedException();
-		}
 	}
 }

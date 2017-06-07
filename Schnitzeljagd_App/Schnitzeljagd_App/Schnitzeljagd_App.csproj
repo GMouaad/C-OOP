@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -46,10 +45,15 @@
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Resources\DataPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Destination.cs" />
     <Compile Include="TreasureHunt.cs" />
     <Compile Include="GameActivity.cs" />
+    <Compile Include="LocDataPoint.cs" />
+    <Compile Include="LocationData.cs" />
+    <Compile Include="DataPoint.cs" />
+    <Compile Include="GpsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

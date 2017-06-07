@@ -8,7 +8,7 @@ using System;
 namespace Schnitzeljagd_App
 {
 	[Activity(Label = "Schnitzeljagd", MainLauncher = true, Icon = "@mipmap/icon")]
-	public class MainActivity : Activity, ILocationListener
+	public class MainActivity : GpsActivity
 	{
 		int count = 1;
 
@@ -84,33 +84,6 @@ namespace Schnitzeljagd_App
 
 		}
 
-		public void OnLocationChanged(Location location)
-		{
-			//throw new NotImplementedException();
-			//Setting up the TextViews
-
-		}
-
-		public void OnProviderDisabled(string provider)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void OnProviderEnabled(string provider)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void OnStatusChanged(string provider, [GeneratedEnum] Availability status, Bundle extras)
-		{
-			throw new NotImplementedException();
-		}
-		protected override void OnResume()
-		{
-
-			//locMan.RequestLocationUpdate(LocationManager.GpsProvider, 50, 0, this);
-
-		}
 	}
 }
 

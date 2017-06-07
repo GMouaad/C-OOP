@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{C87AD0C9-DB42-42D6-8295-D6DC06130C2B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Schnitzeljagd_App/GameActivity.cs">
-    <Files>
-      <File FileName="Schnitzeljagd_App/MainActivity.cs" Line="56" Column="4" />
-      <File FileName="Schnitzeljagd_App/Destination.cs" Line="2" Column="1" />
-      <File FileName="Schnitzeljagd_App/TreasureHunt.cs" Line="14" Column="35" />
-      <File FileName="Schnitzeljagd_App/GameActivity.cs" Line="88" Column="18" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Schnitzeljagd_App" expanded="True">
+            <Node name="Schnitzeljagd_App" expanded="True">
+              <Node name="GpsActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Schnitzeljagd__App AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Holo.Light.DarkActionBar" />
+  <MonoDevelop.Ide.ItemProperties.Schnitzeljagd__App PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
