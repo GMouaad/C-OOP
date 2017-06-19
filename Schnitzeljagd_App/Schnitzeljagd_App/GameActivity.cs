@@ -13,6 +13,7 @@ using Android.Locations;
 
 namespace Schnitzeljagd_App
 {
+    [Activity(Label = "GameActivity", Icon = "@mipmap/treasure_icon")]
 	public class GameActivity : GpsActivity
 	{
 
@@ -30,8 +31,10 @@ namespace Schnitzeljagd_App
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
-			// Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.TextViewsLayout);
+            base.OnCreate(savedInstanceState);
+
+			// Set our view from the "GameActivity" layout resource
+			SetContentView(Resource.Layout.GameActivity);
 
 			txtLongitude = FindViewById<TextView>(Resource.Id.textLongitude);
 			txtLatitude = FindViewById<TextView>(Resource.Id.textLatitude);
@@ -43,10 +46,10 @@ namespace Schnitzeljagd_App
 			locMan = GetSystemService(Context.LocationService) as LocationManager;
 
 			// Generate TreasureHunt
-
 			Location[] locs = new Location[3];
-			TreasureHunt hunt;
+			string[] messages = new string[3];
 
+			TreasureHunt hunt;
 			for (int i = 0; i < locs.Length; i++)
 			{
 				locs[i] = new Location("gps");
@@ -57,23 +60,16 @@ namespace Schnitzeljagd_App
 			locs[1].Longitude = 9.174154;
 			locs[2].Latitude = 47.658395;
 			locs[2].Longitude = 9.171163;
-
-			string[] messages = new string[3];
 			messages[0] = "Take a picture of street sign \"Rheingutstrasse\"";
 			messages[1] = "Take a picture of the bus stop";
 			messages[2] = "Take a picture of the crossing";
 
 			hunt = TreasureHunt.GenerateHunt(locs, messages);
-
-			for (int i = 0; i <= locs.Length; i++)
-			{
-				locs[i].DistanceTo(hunt.getActLocation());
-			}
-
-
 		}
-		public void OnLocationChanged(Location location)
+        public override void OnLocationChanged(Location location)
 		{
+            base.OnLocationChanged(location);
+
 			//Setting up the TextViews
 			txtLongitude.Text = "Current Longtitude : " + Convert.ToString(location.Longitude);
 			txtLatitude.Text = "Current Latitude : " + Convert.ToString(location.Latitude);

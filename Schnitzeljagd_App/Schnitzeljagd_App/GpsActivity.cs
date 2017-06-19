@@ -8,9 +8,10 @@ using Android.Widget;
 
 namespace Schnitzeljagd_App
 {
+    [Activity(Label = "GpsActivity", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
 	public class GpsActivity : Activity, ILocationListener
 	{
-		private LocationManager locMan;
+        protected LocationManager locMan;
 		//private LocDataPoint prevlocDataP = new LocDataPoint(???????); 
 		public GpsActivity()
 		{
@@ -19,6 +20,7 @@ namespace Schnitzeljagd_App
 		public virtual void OnLocationChanged(Location location)
 		{
 			LocDataPoint locDataP = new LocDataPoint(location);
+
 
 		}
 
@@ -40,6 +42,8 @@ namespace Schnitzeljagd_App
 		}
 		protected override void OnPause()
 		{
+            base.OnPause();
+
 			locMan.RemoveUpdates(this);
 		}
 		protected override void OnCreate(Bundle savedInstanceState)
@@ -51,6 +55,7 @@ namespace Schnitzeljagd_App
 		protected override void OnResume()
 		{
 			base.OnResume();
+
 		}
 
 	}

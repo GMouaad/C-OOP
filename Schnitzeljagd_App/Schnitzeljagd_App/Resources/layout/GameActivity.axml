@@ -7,30 +7,40 @@
         android:text="Current longitude :"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textLongitude" />
+        android:id="@+id/textLongitude"
+        android:textSize="20dp" />
     <TextView
         android:text="Current latitude"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textLatitude" />
+        android:id="@+id/textLatitude"
+        android:textSize="20dp" />
     <TextView
         android:text="Current altitude :"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textHeight" />
+        android:id="@+id/textHeight"
+        android:textSize="20dp" />
     <TextView
-        android:text="Current speed"
+        android:text="Current speed :"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textVel" />
+        android:id="@+id/textVel"
+        android:textSize="20dp" />
     <TextView
-        android:text="Current Distance"
+        android:text="Current Distance :"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textDistance" />
+        android:id="@+id/textDistance"
+        android:textSize="20dp" />
     <TextView
-        android:text="Destination reached"
+        android:text="Destination reached :"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textDestReached" />
+        android:id="@+id/textDestReached"
+        android:textSize="20dp"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:shadowColor="#ffe0e0e0" />
 </LinearLayout>

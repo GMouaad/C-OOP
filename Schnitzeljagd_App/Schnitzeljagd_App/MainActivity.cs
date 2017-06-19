@@ -7,7 +7,7 @@ using System;
 
 namespace Schnitzeljagd_App
 {
-	[Activity(Label = "Schnitzeljagd", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity(Label = "Treasure Hunt", MainLauncher = true, Icon = "@mipmap/treasure_icon")]
 	public class MainActivity : GpsActivity
 	{
 		int count = 1;
@@ -53,8 +53,7 @@ namespace Schnitzeljagd_App
 		//Event handling methods
 		public void ButGame_Click(object sender, System.EventArgs e)
 		{
-			Toast toast = Toast.MakeText(this, "Not implemented yet !", ToastLength.Long);
-			toast.Show();
+			StartActivity(typeof(GameActivity));
 		}
 
 		public void ButSpeed_Click(object sender, System.EventArgs e)

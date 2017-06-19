@@ -3,7 +3,7 @@ using Android.Locations;
 
 namespace Schnitzeljagd_App
 {
-	public class LocDataPoint : DataPoint , LocationData
+	public class LocDataPoint : DataPoint , ILocationData
 	{
 		private Location location;
 		private double distance;

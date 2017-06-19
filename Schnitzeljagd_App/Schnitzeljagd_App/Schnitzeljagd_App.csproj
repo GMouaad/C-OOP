@@ -45,15 +45,15 @@
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
-    <Compile Include="Resources\DataPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Destination.cs" />
     <Compile Include="TreasureHunt.cs" />
     <Compile Include="GameActivity.cs" />
     <Compile Include="LocDataPoint.cs" />
-    <Compile Include="LocationData.cs" />
+    <Compile Include="ILocationData.cs" />
     <Compile Include="DataPoint.cs" />
     <Compile Include="GpsActivity.cs" />
+    <Compile Include="DataStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -68,7 +68,8 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
-    <AndroidResource Include="Resources\layout\TextViewsLayout.axml" />
+    <AndroidResource Include="Resources\layout\GameActivity.axml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\treasure_icon.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -1,6 +1,6 @@
 namespace Schnitzeljagd_App
 {
-	interface LocationData
+	interface ILocationData
 	{
 		double getHeight();
 		double getLong();
