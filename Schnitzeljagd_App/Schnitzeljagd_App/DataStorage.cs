@@ -8,9 +8,10 @@ namespace Schnitzeljagd_App
         public DataStorage()
         {
         }
-        public DataStorage getDataStorage()
+        public static DataStorage getDataStorage()
         {
-            dataStorage = new DataStorage();
+            if ( dataStorage == null) 
+                dataStorage = new DataStorage(); // this will happen the first time the program runs, where the dataStorage was never created
             return dataStorage;
         }
     }

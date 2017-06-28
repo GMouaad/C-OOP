@@ -71,7 +71,7 @@ namespace Schnitzeljagd_App
             base.OnLocationChanged(location);
 
 			//Setting up the TextViews
-			txtLongitude.Text = "Current Longtitude : " + Convert.ToString(location.Longitude);
+            txtLongitude.Text = "Current Longtitude : " + Convert.ToString(location.Longitude);
 			txtLatitude.Text = "Current Latitude : " + Convert.ToString(location.Latitude);
 			txtHeight.Text = "Current Height : " + Convert.ToString(location.Altitude);
 			txtVel.Text = "Current Longtitude : " + Convert.ToString((location.Speed) * 3.6) + "km/h"; // convert speed to km/h and print it

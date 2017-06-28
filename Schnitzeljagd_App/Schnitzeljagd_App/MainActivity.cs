@@ -64,23 +64,19 @@ namespace Schnitzeljagd_App
 
 		public void ButMinGame1_Click(object sender, System.EventArgs e)
 		{
-			Toast toast = Toast.MakeText(this, "Not implemented yet !", ToastLength.Long);
-			toast.Show();
-
+            StartActivity(typeof(MinGame_1_Activity));
 		}
 
 		public void ButMinGame2_Click(object sender, System.EventArgs e)
 		{
 			Toast toast = Toast.MakeText(this, "Not implemented yet !", ToastLength.Long);
 			toast.Show();
-
 		}
 
 		public void ButMinGame3_Click(object sender, System.EventArgs e)
 		{
 			Toast toast = Toast.MakeText(this, "Not implemented yet !", ToastLength.Long);
 			toast.Show();
-
 		}
 
 	}

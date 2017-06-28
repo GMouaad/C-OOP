@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{C87AD0C9-DB42-42D6-8295-D6DC06130C2B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Schnitzeljagd_App/LocDataPoint.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Schnitzeljagd_App/SpeedActivity.cs">
     <Files>
-      <File FileName="Schnitzeljagd_App/MainActivity.cs" Line="56" Column="37" />
-      <File FileName="Schnitzeljagd_App/GameActivity.cs" Line="74" Column="15" />
-      <File FileName="Schnitzeljagd_App/GpsActivity.cs" Line="11" Column="105" />
-      <File FileName="Schnitzeljagd_App/LocDataPoint.cs" Line="9" Column="18" />
+      <File FileName="Schnitzeljagd_App/MainActivity.cs" Line="10" Column="88" />
+      <File FileName="Schnitzeljagd_App/SpeedActivity.cs" Line="16" Column="91" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Schnitzeljagd__App AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Holo.Light.DarkActionBar" />

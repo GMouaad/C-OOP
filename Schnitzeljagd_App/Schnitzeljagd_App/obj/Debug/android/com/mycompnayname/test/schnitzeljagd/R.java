@@ -27,6 +27,8 @@ public final class R {
     public static final class layout {
         public static final int gameactivity=0x7f030000;
         public static final int main=0x7f030001;
+        public static final int mingame1=0x7f030002;
+        public static final int speed=0x7f030003;
     }
     public static final class mipmap {
         public static final int icon=0x7f020000;

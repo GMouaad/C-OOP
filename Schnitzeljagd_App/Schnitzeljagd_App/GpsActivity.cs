@@ -19,8 +19,8 @@ namespace Schnitzeljagd_App
 
 		public virtual void OnLocationChanged(Location location)
 		{
-			LocDataPoint locDataP = new LocDataPoint(location);
-
+            LocDataPoint locDataP = new LocDataPoint(location , DataStorage.getDataStorage().locDataPt);
+            DataStorage.getDataStorage().locDataPt = locDataP; // set the new locDataPoint as the actual locdataPoint in the storage
 
 		}
 

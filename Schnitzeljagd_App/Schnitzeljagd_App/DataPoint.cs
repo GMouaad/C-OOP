@@ -3,8 +3,9 @@ namespace Schnitzeljagd_App
 {
 	public abstract class DataPoint
 	{
-		private DateTime date;
-		private DataPoint prevData;
+        protected DateTime date;
+        protected DataPoint prevData;
+        protected int timeDiff;
 		public DataPoint()
 		{
 			date = DateTime.Now;
@@ -13,13 +14,27 @@ namespace Schnitzeljagd_App
 		{
 			this.prevData = data;
 			date = DateTime.Now;
+            if (prevData != null) timeDiff = prevData.getTimeDiff() + getDt(prevData);
 		}
 		public DateTime getDate() { return date;}
 		public DataPoint getPrevData() { return prevData;}
 		public int getDt(DataPoint d)
 		{
-			TimeSpan timeDiff = d.date - this.date;
-			return (int)timeDiff.TotalMilliseconds;
+			TimeSpan timeDiffrence = d.date - this.date;
+			return (int)timeDiffrence.TotalMilliseconds;
 		}
+		public DataPoint getPrev()
+		{
+			return prevData;
+		}
+        public int getTimeDiff() { return timeDiff; }
+        public void Shrink()
+        {
+			if (prevData != null && prevData.getPrev() != null)
+			{
+				this.prevData = prevData.getPrev();
+				this.prevData.Shrink();
+			}
+        }
 	}
 }

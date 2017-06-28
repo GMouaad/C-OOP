@@ -54,6 +54,8 @@
     <Compile Include="DataPoint.cs" />
     <Compile Include="GpsActivity.cs" />
     <Compile Include="DataStorage.cs" />
+    <Compile Include="MinGame_1_Activity.cs" />
+    <Compile Include="SpeedActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -70,6 +72,8 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\GameActivity.axml" />
     <AndroidResource Include="Resources\mipmap-hdpi\treasure_icon.jpg" />
+    <AndroidResource Include="Resources\layout\MinGame1.axml" />
+    <AndroidResource Include="Resources\layout\Speed.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
