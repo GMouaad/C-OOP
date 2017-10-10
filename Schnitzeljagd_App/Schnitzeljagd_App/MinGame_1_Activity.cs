@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace Schnitzeljagd_App
 {
-    [Activity(Label = "MinGame_1_Activity", MainLauncher = true, Icon = "@mipmap/treasure_icon")]
+    [Activity(Label = "MinGame_1_Activity", Icon = "@mipmap/treasure_icon")]
     public class MinGame_1_Activity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

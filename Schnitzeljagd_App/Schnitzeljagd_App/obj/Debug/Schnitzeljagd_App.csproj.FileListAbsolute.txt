@@ -17,3 +17,7 @@
 /Users/MouaadGssair/Projects/GMouaad/C-OOP.git/Schnitzeljagd_App/Schnitzeljagd_App/obj/Debug/R.cs.flag
 /Users/MouaadGssair/Projects/GMouaad/C-OOP.git/Schnitzeljagd_App/Schnitzeljagd_App/obj/Debug/uploadflags.txt
 /Users/MouaadGssair/Projects/GMouaad/C-OOP.git/Schnitzeljagd_App/Schnitzeljagd_App/obj/Debug/res/layout/gameactivity.xml
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/Schnitzeljagd_App/Schnitzeljagd_App/obj/Debug/Schnitzeljagd_App.csprojResolveAssemblyReference.cache
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/Schnitzeljagd_App/Schnitzeljagd_App/obj/Debug/res/layout/mingame1.xml
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/Schnitzeljagd_App/Schnitzeljagd_App/obj/Debug/res/layout/speed.xml
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/Schnitzeljagd_App/Schnitzeljagd_App/obj/Debug/res/drawable/mapbackground.jpg

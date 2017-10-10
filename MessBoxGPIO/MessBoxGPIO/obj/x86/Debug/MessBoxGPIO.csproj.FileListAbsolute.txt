@@ -1,0 +1,5 @@
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBoxGPIO/MessBoxGPIO/bin/Debug/MessBoxGPIO.exe
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBoxGPIO/MessBoxGPIO/bin/Debug/MessBoxGPIO.pdb
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBoxGPIO/MessBoxGPIO/obj/x86/Debug/MessBoxGPIO.csproj.CoreCompileInputs.cache
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBoxGPIO/MessBoxGPIO/obj/x86/Debug/MessBoxGPIO.exe
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBoxGPIO/MessBoxGPIO/obj/x86/Debug/MessBoxGPIO.pdb

@@ -14,7 +14,7 @@ namespace Schnitzeljagd_App
 		}
 		public LocDataPoint(Location loc, LocDataPoint prevData) : base(prevData)
 		{
-			this.loc = loc;
+			this.location = loc;
 			count++;
 			if (count > 999)
 			{
@@ -43,7 +43,7 @@ namespace Schnitzeljagd_App
 
 		public double getSpeed()
 {
-			if (loc.HasSpeed) return location.Speed;
+			if (this.location.HasSpeed) return location.Speed;  // Speed is given in m/s
             else return 0.0;
 		}
 	}

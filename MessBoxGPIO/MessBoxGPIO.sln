@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessBoxGPIO", "MessBoxGPIO\MessBoxGPIO.csproj", "{A91B6D5A-0C97-4D9C-8A7C-68DC64970AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessBox", "MessBox\MessBox.csproj", "{E830691A-57BF-4E37-9AE6-4419F70F15EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91B6D5A-0C97-4D9C-8A7C-68DC64970AD6}.Debug|x86.ActiveCfg = Debug|x86
+		{A91B6D5A-0C97-4D9C-8A7C-68DC64970AD6}.Debug|x86.Build.0 = Debug|x86
+		{A91B6D5A-0C97-4D9C-8A7C-68DC64970AD6}.Release|x86.ActiveCfg = Release|x86
+		{A91B6D5A-0C97-4D9C-8A7C-68DC64970AD6}.Release|x86.Build.0 = Release|x86
+		{E830691A-57BF-4E37-9AE6-4419F70F15EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E830691A-57BF-4E37-9AE6-4419F70F15EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{E830691A-57BF-4E37-9AE6-4419F70F15EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{E830691A-57BF-4E37-9AE6-4419F70F15EA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

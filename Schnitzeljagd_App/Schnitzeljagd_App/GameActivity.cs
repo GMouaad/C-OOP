@@ -43,7 +43,7 @@ namespace Schnitzeljagd_App
 			txtDist = FindViewById<TextView>(Resource.Id.textDistance);
 			txtMessage = FindViewById<TextView>(Resource.Id.textDestReached);
 
-			locMan = GetSystemService(Context.LocationService) as LocationManager;
+			//locMan = GetSystemService(Context.LocationService) as LocationManager;
 
 			// Generate TreasureHunt
 			Location[] locs = new Location[3];

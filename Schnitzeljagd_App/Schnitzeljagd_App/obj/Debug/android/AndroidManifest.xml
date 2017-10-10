@@ -16,6 +16,8 @@
     </activity>
     <activity android:icon="@mipmap/treasure_icon" android:label="GameActivity" android:name="md54d8a3da5762f0ff2d4a4e1b01d6a4c7c.GameActivity" />
     <activity android:label="GpsActivity" android:screenOrientation="portrait" android:name="md54d8a3da5762f0ff2d4a4e1b01d6a4c7c.GpsActivity" />
+    <activity android:icon="@mipmap/treasure_icon" android:label="MinGame_1_Activity" android:name="md54d8a3da5762f0ff2d4a4e1b01d6a4c7c.MinGame_1_Activity" />
+    <activity android:icon="@mipmap/treasure_icon" android:label="SpeedActivity" android:name="md54d8a3da5762f0ff2d4a4e1b01d6a4c7c.SpeedActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.mycompnayname.test.schnitzeljagd.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

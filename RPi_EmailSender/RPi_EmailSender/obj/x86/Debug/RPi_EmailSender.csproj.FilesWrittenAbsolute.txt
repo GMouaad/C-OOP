@@ -1,0 +1,1 @@
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/RPi_EmailSender/RPi_EmailSender/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs

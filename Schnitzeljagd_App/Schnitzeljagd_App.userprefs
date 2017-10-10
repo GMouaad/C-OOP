@@ -1,15 +1,3 @@
 ﻿<Properties StartupConfiguration="{C87AD0C9-DB42-42D6-8295-D6DC06130C2B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Schnitzeljagd_App/SpeedActivity.cs">
-    <Files>
-      <File FileName="Schnitzeljagd_App/MainActivity.cs" Line="10" Column="88" />
-      <File FileName="Schnitzeljagd_App/SpeedActivity.cs" Line="16" Column="91" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Schnitzeljagd__App AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Holo.Light.DarkActionBar" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

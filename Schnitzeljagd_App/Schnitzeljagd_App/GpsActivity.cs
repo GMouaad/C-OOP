@@ -12,7 +12,6 @@ namespace Schnitzeljagd_App
 	public class GpsActivity : Activity, ILocationListener
 	{
         protected LocationManager locMan;
-		//private LocDataPoint prevlocDataP = new LocDataPoint(???????); 
 		public GpsActivity()
 		{
 		}
@@ -55,6 +54,7 @@ namespace Schnitzeljagd_App
 		protected override void OnResume()
 		{
 			base.OnResume();
+            locMan.RequestLocationUpdates("gps", 50, 0, this); // start listening to location updates
 
 		}
 
