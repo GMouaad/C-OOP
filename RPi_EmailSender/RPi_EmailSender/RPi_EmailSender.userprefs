@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{A6DA739D-3BF5-43E6-B64D-F24685E22796}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RPi_EmailSender/Program.cs">
-    <Files>
-      <File FileName="RPi_EmailSender/Program.cs" Line="35" Column="22" />
-      <File FileName="RPi_EmailSender/Terminal.cs" Line="11" Column="4" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.RPi__EmailSender PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

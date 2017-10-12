@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace MessBoxGPIO
+namespace RPi_EmailSender
 {
 	public static class Terminal
 	{

@@ -1,11 +1,3 @@
 ﻿<Properties StartupConfiguration="{A91B6D5A-0C97-4D9C-8A7C-68DC64970AD6}|Default">
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.MessBoxGPIO PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MessBox AndroidDesignerPreferredTheme="Theme.AppCompat.Light.DarkActionBar" />
   <MultiItemStartupConfigurations />
 </Properties>

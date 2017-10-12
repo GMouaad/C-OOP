@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{7C55D544-7C1F-4E80-AE33-5B98E1981B09}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MessBox/Resources/values/themes.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MessBox/MainActivity.cs">
     <Files>
       <File FileName="MessBox/MainActivity.cs" Line="19" Column="17" />
-      <File FileName="MessBox/Resources/values/themes.xml" Line="11" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

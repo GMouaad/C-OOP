@@ -11,6 +11,7 @@
 using System;
 using Nanite.IO;
 using Nanite.Exceptions;
+using Nanite.IO.Devices;
 
 namespace RPi_EmailSender
 {
@@ -19,20 +20,22 @@ namespace RPi_EmailSender
 		public static void Main(string[] args)
 		{
 			//initialise Pins
-			private int E_STOP = 3;
-			private int SCHALTER = 5;
+			const int E_STOP = (int)PINE64.Pi.Pin3; ;
+			const int SCHALTER = (int)PINE64.Pi.Pin5;;
 
-			//Set Pins as Input
-			GPIO.Value E_PinValue = GPIO.PinMode(E_STOP, GPIO.Direction.Input);
-			GPIO.Value S_PinValue = GPIO.PinMode(SCHALTER, GPIO.Direction.Input);
+            //Set Pins as Input        
+				GPIO.PinMode(E_STOP, GPIO.Direction.Input);
+				GPIO.PinMode(SCHALTER, GPIO.Direction.Input);
 
 
 			// Loop
-			while(1)
+            while(true)
 			{
-				if(E_PinValue == GPIO.Value.LOW)
+				GPIO.Value E_PinValue = (GPIO.Value) GPIO.Read(E_STOP);
+				GPIO.Value S_PinValue = (GPIO.Value) GPIO.Read(SCHALTER);
+				if(E_PinValue == 0)
 				{
-					console.WriteLine("\n\n Error occurred! user stopped the machine. \n\n");
+					Console.WriteLine("\n\n Error occurred! user stopped the machine. \n\n");
 
 					// SMTP should be configured in the devices
 					// See :https://www.raspberrypi.org/forums/viewtopic.php?t=32077
@@ -40,9 +43,9 @@ namespace RPi_EmailSender
 					Terminal.ExecuteCommand("echo \"Error occurred! user stopped the machine.\" | mail -s Emergency Mgsair@gmail.com");
 
 				}
-				else if(S_PinValue == GPIO.Value.LOW)
+				else if(S_PinValue == 0)
 				{
-					console.WriteLine("\n\n Error occurred! Machine touched the Limit switches. \n\n");
+					Console.WriteLine("\n\n Error occurred! Machine touched the Limit switches. \n\n");
 					Terminal.ExecuteCommand("echo \"Error occurred! user stopped the machine.\" | mail -s LimitSwitch Mgsair@gmail.com");
 
 				}

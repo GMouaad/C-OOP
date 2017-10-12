@@ -1,0 +1,1 @@
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/RPi_EmailSender/RPi_EmailSender/obj/x86/Debug/RPi_EmailSender.csproj.CoreCompileInputs.cache
