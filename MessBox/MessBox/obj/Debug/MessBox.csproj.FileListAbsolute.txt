@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\C-OOP\MessBox\MessBox\obj\Debug\MessBox.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\C-OOP\MessBox\MessBox\obj\Debug\MessBox.csproj.CoreCompileInputs.cache

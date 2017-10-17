@@ -13,11 +13,20 @@ namespace MessBox
 		{
 			base.OnCreate(savedInstanceState);
 
+            //Get the default actionbar instance
+            //ActionBar mActionBar = getActionBar();
+            //mActionBar.setDisplayShowHomeEnabled(false);
+            //mActionBar.setDisplayShowTitleEnabled(false);
 
-			ActionBar.SetCustomView(Resource.Layout.ActionBar);
-            ActionBar.SetDisplayShowCustomEnabled(true);
+            //Initializes the custom action bar layout
+            //LayoutInflater mInflater = LayoutInflater.from(this);
+            //View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
+            //mActionBar.setCustomView(mCustomView);
+
+            mActionBar.SetCustomView(Resource.Layout.mActionBar);
+            mActionBar.SetDisplayShowCustomEnabled(true);
 			// Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.Main);
+			SetContentView(Resource.Layout.ActionBar);
 
 			// Get our button from the layout resource,
 			// and attach an event to it
