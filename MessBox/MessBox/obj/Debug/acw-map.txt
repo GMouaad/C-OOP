@@ -1,7 +1,23 @@
+MessBox.Connectivity, MessBox;md53a488236cd35af3dec1b28c79def288f.Connectivity
+MessBox.Connectivity, MessBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a488236cd35af3dec1b28c79def288f.Connectivity
+MessBox.Connectivity;md53a488236cd35af3dec1b28c79def288f.Connectivity
+messbox.Connectivity;md53a488236cd35af3dec1b28c79def288f.Connectivity
 MessBox.MainActivity, MessBox;md53a488236cd35af3dec1b28c79def288f.MainActivity
 MessBox.MainActivity, MessBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a488236cd35af3dec1b28c79def288f.MainActivity
 MessBox.MainActivity;md53a488236cd35af3dec1b28c79def288f.MainActivity
 messbox.MainActivity;md53a488236cd35af3dec1b28c79def288f.MainActivity
+MessBox.InfoActivity, MessBox;md53a488236cd35af3dec1b28c79def288f.InfoActivity
+MessBox.InfoActivity, MessBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a488236cd35af3dec1b28c79def288f.InfoActivity
+MessBox.InfoActivity;md53a488236cd35af3dec1b28c79def288f.InfoActivity
+messbox.InfoActivity;md53a488236cd35af3dec1b28c79def288f.InfoActivity
+MessBox.SensorsActivity, MessBox;md53a488236cd35af3dec1b28c79def288f.SensorsActivity
+MessBox.SensorsActivity, MessBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a488236cd35af3dec1b28c79def288f.SensorsActivity
+MessBox.SensorsActivity;md53a488236cd35af3dec1b28c79def288f.SensorsActivity
+messbox.SensorsActivity;md53a488236cd35af3dec1b28c79def288f.SensorsActivity
+MessBox.ScoresActivity, MessBox;md53a488236cd35af3dec1b28c79def288f.ScoresActivity
+MessBox.ScoresActivity, MessBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a488236cd35af3dec1b28c79def288f.ScoresActivity
+MessBox.ScoresActivity;md53a488236cd35af3dec1b28c79def288f.ScoresActivity
+messbox.ScoresActivity;md53a488236cd35af3dec1b28c79def288f.ScoresActivity
 Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor

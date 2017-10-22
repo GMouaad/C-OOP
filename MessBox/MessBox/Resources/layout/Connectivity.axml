@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+    <android.support.v7.widget.ActionBarContainer
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/actionBarContainer11"
+        android:visibility="invisible" />
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/frameLayout11">
+        <ImageView
+            android:src="@drawable/bluetooth_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView11"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout11"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:contextClickable="true"
+        android:background="#ffb9bde1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView11"
+            android:layout_weight="80"
+            android:text="Bluetooth State : Disabled"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/switch11"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:clickable="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout12"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:contextClickable="true"
+        android:background="#ffb9bde1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Connection with the Box : OFF" />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/switch12"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:clickable="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout13"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="#ffb9bde1"
+        android:contextClickable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Search for Box" />
+        <ImageButton
+            android:src="@drawable/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton1"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:weightSum="100"
+        android:id="@+id/linearLayout14">
+        <ImageView
+            android:src="@drawable/wifi_logo"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView12"
+            android:layout_weight="35" />
+        <TextView
+            android:text="Wireless Settings"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView13"
+            android:layout_weight="65"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="32dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout15"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:contextClickable="true"
+        android:background="#ffb9bde1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView11"
+            android:layout_weight="80"
+            android:text="Set connection over Wifi"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <Button
+            android:text="Set"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button1" />
+    </LinearLayout>
+</LinearLayout>

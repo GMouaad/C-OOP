@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{7C55D544-7C1F-4E80-AE33-5B98E1981B09}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MessBox/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="MessBox/MainActivity.cs" Line="1" Column="19" />
+      <File FileName="MessBox/MainActivity.cs" Line="18" Column="34" />
+      <File FileName="MessBox/Connectivity.cs" Line="47" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
