@@ -58,6 +58,7 @@
     <Compile Include="InfoActivity.cs" />
     <Compile Include="SensorsActivity.cs" />
     <Compile Include="ScoresActivity.cs" />
+    <Compile Include="Dialog_Pairing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -70,6 +71,7 @@
     <AndroidResource Include="Resources\drawable\bluetooth_logo.png" />
     <AndroidResource Include="Resources\drawable\Search_Button.png" />
     <AndroidResource Include="Resources\drawable\WiFi_Logo.svg.png" />
+    <AndroidResource Include="Resources\layout\Dialog_Pairing.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />

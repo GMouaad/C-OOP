@@ -4,13 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffffff">
-    <android.support.v7.widget.ActionBarContainer
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:id="@+id/actionBarContainer11"
-        android:visibility="invisible" />
     <FrameLayout
         android:minWidth="25px"
         android:minHeight="25px"
@@ -53,7 +46,9 @@
             android:id="@+id/switch11"
             android:layout_weight="20"
             android:gravity="center"
-            android:clickable="false" />
+            android:clickable="false"
+            android:onClick="BltSwitch_clicked"
+            android:checked="false" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -117,7 +112,8 @@
             android:layout_height="match_parent"
             android:id="@+id/imageButton1"
             android:scaleType="centerInside"
-            android:adjustViewBounds="true" />
+            android:adjustViewBounds="true"
+            android:onClick="SearchBtn_Clicked" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -171,6 +167,8 @@
             android:text="Set"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/button1" />
+            android:id="@+id/button1"
+            android:filterTouchesWhenObscured="false"
+            android:onClick="SetWifiBtn_Clicked" />
     </LinearLayout>
 </LinearLayout>

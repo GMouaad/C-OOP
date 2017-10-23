@@ -12,6 +12,8 @@ namespace MessBox
 
         int count = 1;
 
+        LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout4, linearLayout5;
+
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
@@ -26,11 +28,11 @@ namespace MessBox
 		}
         private void initialize()
         {
-            LinearLayout linearLayout1 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout1);
-            LinearLayout linearLayout2 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout2);
-            LinearLayout linearLayout3 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout3);
-            LinearLayout linearLayout4 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout4);
-            LinearLayout linearLayout5 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout5);
+            linearLayout1 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout1);
+            linearLayout2 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout2);
+            linearLayout3 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout3);
+            linearLayout4 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout4);
+            linearLayout5 = (LinearLayout)FindViewById<LinearLayout>(Resource.Id.linearLayout5);
 
             linearLayout1.Click += Home_clicked;
             linearLayout2.Click += Sensors_clicked;

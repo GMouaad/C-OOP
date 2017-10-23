@@ -35,6 +35,7 @@ C:/Users/User/Desktop/C-OOP/MessBox/MessBox/obj/Debug/MessBox.csproj.CoreCompile
 /Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBox/MessBox/obj/Debug/res/drawable/bluetooth_logo.png
 /Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBox/MessBox/obj/Debug/res/drawable/search_button.png
 /Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBox/MessBox/obj/Debug/res/drawable/wifi_logo.svg.png
+/Users/MouaadGssair/Projects/GMouaad/C-OOP.git/MessBox/MessBox/obj/Debug/res/layout/dialog_pairing.xml
 bin/Debug/Mono.Android.pdb
 obj/Debug/linksrc/MessBox.pdb
 obj/Debug/linksrc/Mono.Android.pdb

@@ -18,6 +18,10 @@ MessBox.ScoresActivity, MessBox;md53a488236cd35af3dec1b28c79def288f.ScoresActivi
 MessBox.ScoresActivity, MessBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a488236cd35af3dec1b28c79def288f.ScoresActivity
 MessBox.ScoresActivity;md53a488236cd35af3dec1b28c79def288f.ScoresActivity
 messbox.ScoresActivity;md53a488236cd35af3dec1b28c79def288f.ScoresActivity
+MessBox.Dialog_Pairing, MessBox;md53a488236cd35af3dec1b28c79def288f.Dialog_Pairing
+MessBox.Dialog_Pairing, MessBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53a488236cd35af3dec1b28c79def288f.Dialog_Pairing
+MessBox.Dialog_Pairing;md53a488236cd35af3dec1b28c79def288f.Dialog_Pairing
+messbox.Dialog_Pairing;md53a488236cd35af3dec1b28c79def288f.Dialog_Pairing
 Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
